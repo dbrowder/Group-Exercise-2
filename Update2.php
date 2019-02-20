@@ -1,6 +1,10 @@
 <?php
-	
-public function edit() {
+    echo 'Name:';
+    echo 'Name is required';
+    echo 'Password';
+    echo 'Password is required';
+    
+function edit() {
 	$id = $this->request->params['password'];
 	$this->User->id = $id;
 		
